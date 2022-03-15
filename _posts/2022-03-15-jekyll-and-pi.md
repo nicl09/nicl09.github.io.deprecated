@@ -90,11 +90,11 @@ port: 5000
 
 Et voilà! Our site is up and running:
 
-![](screenshots/template.png)
+![](/assets/images/template.png)
 
 Alright, cool. So far we installed Jekyll and created our first site. It's just the default template with a default post for now, but that will change soon.
 
-## Customizing the site
+## Content and customization
 
 ### Creating our first post
 
@@ -127,7 +127,7 @@ It is also the foundation for [GitHub Pages](https://pages.github.com/). So why 
 
 And the result looks like this:
 
-![](screenshots/post-1.png)
+![](/assets/images/post-1.png)
 
 Okay I admit it's not the prettiest website out there but at least we managed to fill our site with content. But I am a design whore and *I NEED IT TO LOOK PRETTY*. So let's do that now.
 
