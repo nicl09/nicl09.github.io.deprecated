@@ -7,12 +7,9 @@ tags: jekyll tutorial
 ---
 ## What?
 
+We are going to deploy a website with the help of [Jekyll](https://jekyllrb.com/) and a RaspberryPi 4 and use this as development environment. ~~I will use the Pi as a server to host the website on my personal domain (you are probably visiting right now) and then we will setup a CD Pipeline to avoid manually deploying changes to our site every time we make them.~~<br>
 > This started as an attempt to deploy a Jekyll website on RaspberryPi **in production**. However, while deploying this to production I quickly realized it's way more comfortable to use GitHub Pages for hosting. I changed my approach and am now using my RasPi for development and testing only. Please consider this when you're reading this article. The follow-up article will explain how to handle a production environment with GitHub pages if you have a domain at hand (which was a premise anyway).
 {: .prompt-info }
-
-
-We are going to deploy a website with the help of [Jekyll](https://jekyllrb.com/) and a RaspberryPi 4 and use this as development environment. ~~I will use the Pi as a server to host the website on my personal domain (you are probably visiting right now) and then we will setup a CD Pipeline to avoid manually deploying changes to our site every time we make them.~~<br>
-<br>
 So, what exactly is Jekyll?<br>
 
 From their official website: 
