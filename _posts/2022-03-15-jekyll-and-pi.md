@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Jekyll and Pi"
-number: 1
 date:   2022-03-15 08:47
 excerpt: "In this article, we will setup a static Jekyll site on a RaspberryPi 4 and create a simple CD pipeline for it."
 category: DevOps
@@ -114,11 +113,11 @@ A typical Front Matter section could look like this (I put example content from 
 ```yaml
 ---
 layout: post
-title:  "Creating a static documentation and blog site with Jekyll"
-number: 1
-date:   2022-03-15 08:15
-excerpt: "In this article, we will setup a static Jekyll website and create a simple CD pipeline for it."
-category: Tech
+title:  "Jekyll and Pi"
+date:   2022-03-15 08:47
+excerpt: "In this article, we will setup a static Jekyll site on a RaspberryPi 4 and create a simple CD pipeline for it."
+category: DevOps
+tags: jekyll tutorial
 ---
 ## What?
 
@@ -154,17 +153,18 @@ First we setup a github repository with the help of [Chirpy Starter](https://git
 git clone git@github.com:<username>/<repository-name>.git
 ```
 
-Then I made the same changes to the _config.yml we already made in our blog directory (adding the host and port) and customized some of the other predefined configurations such as the blogs name and description. Next thing I did was moving the already created posts and screenshots to our new repository:
+Then we make the same changes to the _config.yml we already made in our blog directory (adding the host and port) and customize some of the other predefined configurations such as the blogs name and description. Next thing we do is moving the already created posts and screenshots to our new repository:
 
 ```bash
 mv ~/blog/_posts/* ~/<repository-name>/_posts && mv  ~/blog/assets/* ~/<repository-name>/assets
 ```
 
-All that's left to enjoy our beautiful new theme is another run of `bundle exec jekyll serve --watch` (you can use watch here to get a live view of all the changes you make to your website):
+All that's left to enjoy our beautiful new theme is another run of `bundle exec jekyll serve --watch` (we are using watch here to get a live view of all the changes we make to our website):
 
 ![](/assets/images/chirpy-1.png)
 
-So far so good. Pretty nice and comparatively easy, right? 
+So far so good. We now have our website up and running and some content wrapped up in a nice theme. What's next?
+
 
 
 resources: 
