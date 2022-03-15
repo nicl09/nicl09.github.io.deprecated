@@ -1,6 +1,6 @@
 ## What?
 
-We are going to deploy a website with the help of Jekyll and a RaspberryPi 4. Afterwards we are going to setup a CD Pipeline to avoid manually deploying changes to our site every time we make them. So, what exactly is Jekyll?
+We are going to deploy a website with the help of [Jekyll](https://jekyllrb.com/) and a RaspberryPi 4. Afterwards we are going to setup a CD Pipeline to avoid manually deploying changes to our site every time we make them. So, what exactly is Jekyll?
 
 From their official website: 
 > Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.
