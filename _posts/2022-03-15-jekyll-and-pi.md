@@ -39,7 +39,8 @@ I will try to use my Raspi 4 with 4 Gigs of RAM for this because I do have it id
 - RubyGems
 - GCC and Make
 
-Note: It is possible to run jekyll with docker and there are official images available on Docker Hub. However, there are no arm images available at the time of this post so I am going to do this the oldschool way.
+> It is possible to run jekyll with docker and there are official images available on Docker Hub. However, there are no arm images available at the time of this post so I am going to do this the oldschool way.
+{: .prompt-info }
 
 Nothing unusual happening here. First off we install ruby and some other prerequisites:
 
