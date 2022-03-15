@@ -169,7 +169,8 @@ All that's left to enjoy our beautiful new theme is another run of `bundle exec 
 
 ![](/assets/images/chirpy-1.png)
 
-So far so good. We now have our website up and running and some content wrapped up in a nice theme. What's next?
+So far so good. We now have our website up and running and some content wrapped up in a nice theme. What's next?<br>
+In the next part we will setup our Pi to host the site and make it available in the internet.
 
 
 
