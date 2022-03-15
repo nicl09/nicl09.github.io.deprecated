@@ -2,9 +2,10 @@
 layout: post
 title:  "Jekyll and Pi"
 number: 1
-date:   2022-03-15 13:47 -0700
+date:   2022-03-15 08:47
 excerpt: "In this article, we will setup a static Jekyll site on a RaspberryPi 4 and create a simple CD pipeline for it."
 category: DevOps
+tags: jekyll tutorial
 ---
 ## What?
 
@@ -55,7 +56,7 @@ Next, we want to avoid installing RubyGems packages (called gems) as the root us
 echo '# Install Ruby Gems to ~/gems' >> ~/.zshrc
 echo 'export GEM_HOME="$HOME/gems"' >> ~/.zshrc
 echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.zshrc
-source ~/.zshrc
+tsource ~/.zshrc
 ```
 
 > :warning: In my case I had to move the export commands close to the top of my .zshrc because other configurations in
