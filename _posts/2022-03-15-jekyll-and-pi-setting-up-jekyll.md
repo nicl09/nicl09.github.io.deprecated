@@ -7,6 +7,10 @@ tags: jekyll tutorial
 ---
 ## What?
 
+> It is possible to run jekyll with docker and there are official images available on Docker Hub. However, there are no arm images available at the time of this post so I am going to do this the oldschool way.
+{: .prompt-warning }
+
+
 We are going to deploy a website with the help of [Jekyll](https://jekyllrb.com/) and a RaspberryPi 4. I will use the Pi as a server to host the website on my personal domain (you are probably visiting right now) and then we will setup a CD Pipeline to avoid manually deploying changes to our site every time we make them.<br>
 <br>
 So, what exactly is Jekyll?<br>
