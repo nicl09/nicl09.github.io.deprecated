@@ -1,5 +1,3 @@
-# Jekyll & Pi
-
 ## What?
 
 We are going to deploy a website with the help of Jekyll and a RaspberryPi 4. Afterwards we are going to setup a CD Pipeline to avoid manually deploying changes to our site every time we make them. So, what exactly is Jekyll?
