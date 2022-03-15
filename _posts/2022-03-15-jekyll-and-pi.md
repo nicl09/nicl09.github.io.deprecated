@@ -52,7 +52,7 @@ sudo apt-get -y install ruby-full build-essential zlib1g-dev
 
 This spawned a popup asking me which services I want to restart. I kept the suggested services checked and confirmed hitting enter.
 
-Next, we want to avoid installing RubyGems packages (called gems) as the root user. Instead, we set up a gem installation directory for our user account. The following commands will add environment variables to our ~/.zhrc file to configure the gem installation path:
+Next, we want to avoid installing RubyGems packages (called gems) as the root user. Instead, we set up a gem installation directory for our user account. The following commands will add environment variables to our `~/.zhrc`{: .filepath} file to configure the gem installation path:
 
 ```bash
 echo '# Install Ruby Gems to ~/gems' >> ~/.zshrc
@@ -76,7 +76,7 @@ This can take a while depending on your setup. The Pi I had lying around for mon
 
 ### Creating a new site
 
-First off, we tell `jekyll` to create our new site at ~/blog (no, you don't have to create the folder first):
+First off, we tell `jekyll` to create our new site at `~/blog`{: .filepath} (no, you don't have to create the folder first):
 
 ```bash
 jekyll new ~/blog
@@ -92,7 +92,7 @@ cd ~/blog && bundle exec jekyll serve
 > **Ruby Version 3.0.0+**: As of 03/14/2022 the official documentation says this step [may fail](https://github.com/github/pages-gem/issues/752). You may fix it by adding `webrick` to your dependencies: `bundle add webrick`
 {: .prompt-warning }
 
-This brings up our server and allows us to connect to 127.0.0.1:4000. Though because I was installing this on my Pi and wanted to connect from my desktop I had to add a few lines to the _config.yml in my ~/blog folder:
+This brings up our server and allows us to connect to 127.0.0.1:4000. Though because I was installing this on my Pi and wanted to connect from my desktop I had to add a few lines to the _config.yml in my `~/blog`{: .filepath} folder:
 
 ```yaml
 # deployment
@@ -111,7 +111,7 @@ Alright, cool. So far we installed Jekyll and created our first site. It's just 
 ### Creating our first post
 
 Okay, we got the template site up and running, now it's time to fill it with our own content. This is pretty simple.
-Jekyll looks for files with the proper format in the ~/blog/_posts folder. This file must contain what Jekyll calls the [YAML Front Matter](https://jekyllrb.com/docs/step-by-step/03-front-matter/).
+Jekyll looks for files with the proper format in the `~/blog/_posts`{: .filepath} folder. This file must contain what Jekyll calls the [YAML Front Matter](https://jekyllrb.com/docs/step-by-step/03-front-matter/).
 A typical Front Matter section could look like this:
 
 ```markdown
@@ -157,7 +157,7 @@ First we setup a github repository with the help of [Chirpy Starter](https://git
 git clone git@github.com:<username>/<repository-name>.git
 ```
 
-Then we make the same changes to the _config.yml we already made in our blog directory (adding the host and port) and customize some of the other predefined configurations such as the blogs name and description. Next thing we do is moving the already created posts and screenshots to our new repository:
+Then we make the same changes to the `_config.yml`{: .filepath} we already made in our blog directory (adding the host and port) and customize some of the other predefined configurations such as the blogs name and description. Next thing we do is moving the already created posts and screenshots to our new repository:
 
 ```bash
 mv ~/blog/_posts/* ~/<repository-name>/_posts && mv  ~/blog/assets/* ~/<repository-name>/assets
