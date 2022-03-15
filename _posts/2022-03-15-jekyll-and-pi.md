@@ -56,7 +56,7 @@ Next, we want to avoid installing RubyGems packages (called gems) as the root us
 echo '# Install Ruby Gems to ~/gems' >> ~/.zshrc
 echo 'export GEM_HOME="$HOME/gems"' >> ~/.zshrc
 echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.zshrc
-tsource ~/.zshrc
+source ~/.zshrc
 ```
 
 > :warning: In my case I had to move the export commands close to the top of my .zshrc because other configurations in
