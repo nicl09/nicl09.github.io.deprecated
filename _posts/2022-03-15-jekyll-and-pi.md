@@ -1,12 +1,4 @@
----
-layout: post
-title:  "Jekyll & Pi"
-number: 1
-date:   2022-03-15 08:15
-excerpt: "In this article, we will setup a static Jekyll website and create a simple CD pipeline for it."
-category: jekyll 
----
-# Creating a static blog and documentation site with Jekyll
+# Jekyll & Pi
 
 ## What?
 
@@ -98,7 +90,7 @@ port: 5000
 
 Et voilà! Our site is up and running:
 
-![](/assets/images/template.png)
+![](screenshots/template.png)
 
 Alright, cool. So far we installed Jekyll and created our first site. It's just the default template with a default post for now, but that will change soon.
 
@@ -108,7 +100,7 @@ Alright, cool. So far we installed Jekyll and created our first site. It's just 
 
 Okay, we got the template site up and running, now it's time to fill it with our own content. This is pretty simple.
 Jekyll looks for files with the proper format in the ~/blog/_posts folder. This file must contain what Jekyll calls the [YAML Front Matter](https://jekyllrb.com/docs/step-by-step/03-front-matter/).
-A typical Front Matter section could look like this:
+A typical Front Matter section could look like this (I put example content from this article below):
 
 ```yaml
 ---
@@ -119,4 +111,49 @@ date:   2022-03-15 08:15
 excerpt: "In this article, we will setup a static Jekyll website and create a simple CD pipeline for it."
 category: Tech
 ---
+# Creating a static blog and documentation site with Jekyll
+
+## What?
+
+We are going to deploy a website with the help of Jekyll and a RaspberryPi 4. Afterwards we are going to setup a CD Pipeline to avoid manually deploying changes to our site every time we make them. So, what exactly is Jekyll?
+
+From their official website: 
+> Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.
+
+> One of the great things about Jekyll is there’s no database. All content and site structure are files that a Git repository can version. Using a repository is optional but is recommended.
+
+It is also the foundation for [GitHub Pages](https://pages.github.com/). So why not just use GitHub Pages then, you may ask? Because I am too much of a Scrooge McDuck.
 ```
+
+And the result looks like this:
+
+![](screenshots/post-1.png)
+
+Okay I admit it's not the prettiest website out there but at least we managed to fill our site with content. But I am a design whore and *I NEED IT TO LOOK PRETTY*. So let's do that now.
+
+### Styling our site with a theme
+
+There are thousands of themes for Jekyll out there and many sites that can give you an overview and help you find the right one for you, such as:
+
+- https://github.com/topics/jekyll-theme
+- https://jekyllthemes.io/
+- https://jekyll-themes.com
+
+I wanted a more minimalistic approach for this site and after some research I found the [chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy/) to be a fitting candidate. It looks nice, has a sidebar, is responsive, features a dark mode (FYI: not having a dark mode is the eigth cardinal sin) and it is free.
+
+First we setup a github repository with the help of [Chirpy Starter](https://github.com/cotes2020/chirpy-starter/generate). Then we clone it next to our already created blog directory:
+
+```bash
+git clone git@github.com:<username>/<repository-name>.git
+```
+
+Then I made the same changes to the _config.yml we already made in our blog directory (adding the host and port) and customized some of the other predefined configurations such as the blogs name and description. Next thing I did was moving the already created posts and screenshots to our new repository:
+
+```bash
+mv ~/blog/_posts/* ~/<repository-name>/_posts && mv  ~/blog/assets/* ~/<repository-name>/assets
+```
+
+
+resources: 
+- https://jekyllrb.com/docs
+- https://opensource.com/article/21/9/build-website-jekyll
