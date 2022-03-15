@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-**DiveOps** is me trying with a fancy name to attract both people interested in diving and DevOps topics (I can't be the only one interested in these things, right?).<br>
+**DiveOps** is me trying with a fancy name to attract both people interested in diving and DevOps topics (I can't be the only one interested in both of these things, right?).<br>
 If you just want to use this as a template or something similar feel free to do that but please mention this blog.<br>
 <br>
 
