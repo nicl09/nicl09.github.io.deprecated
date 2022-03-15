@@ -174,4 +174,4 @@ So far so good. We now have our website up and running and some content wrapped 
 resources: 
 - https://jekyllrb.com/docs
 - https://opensource.com/article/21/9/build-website-jekyll
-- https://chirpy.cotes.page/
+- https://chirpy.cotes.page
