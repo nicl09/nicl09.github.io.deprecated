@@ -112,7 +112,7 @@ Okay, we got the template site up and running, now it's time to fill it with our
 Jekyll looks for files with the proper format in the ~/blog/_posts folder. This file must contain what Jekyll calls the [YAML Front Matter](https://jekyllrb.com/docs/step-by-step/03-front-matter/).
 A typical Front Matter section could look like this:
 
-```yaml
+```markdown
 ---
 layout: post
 title:  "Jekyll and Pi"
@@ -126,9 +126,9 @@ tags: jekyll tutorial
 We are going to deploy a website with the help of [Jekyll](https://jekyllrb.com/) and a RaspberryPi 4. Afterwards we are going to setup a CD Pipeline to avoid manually deploying changes to our site every time we make them. So, what exactly is Jekyll?
 
 From their official website: 
-Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.
+> Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.
 
-One of the great things about Jekyll is there’s no database. All content and site structure are files that a Git repository can version. Using a repository is optional but is recommended.
+> One of the great things about Jekyll is there’s no database. All content and site structure are files that a Git repository can version. Using a repository is optional but is recommended.
 
 It is also the foundation for [GitHub Pages](https://pages.github.com/). So why not just use GitHub Pages then, you may ask? Because I am too much of a Scrooge McDuck.
 ```
