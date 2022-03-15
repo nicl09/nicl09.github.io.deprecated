@@ -9,7 +9,7 @@ From their official website:
 
 It is also the foundation for [GitHub Pages](https://pages.github.com/). So why not just use GitHub Pages then, you may ask? Because I am too much of a Scrooge McDuck.
 
-## Now seriously. Why?
+## No, seriously. Why?
 
 Simply because I do have a domain available and a couple of other reasons why I would like to share my journey, for example:
 
@@ -109,16 +109,14 @@ date:   2022-03-15 08:15
 excerpt: "In this article, we will setup a static Jekyll website and create a simple CD pipeline for it."
 category: Tech
 ---
-# Creating a static blog and documentation site with Jekyll
-
 ## What?
 
-We are going to deploy a website with the help of Jekyll and a RaspberryPi 4. Afterwards we are going to setup a CD Pipeline to avoid manually deploying changes to our site every time we make them. So, what exactly is Jekyll?
+We are going to deploy a website with the help of [Jekyll](https://jekyllrb.com/) and a RaspberryPi 4. Afterwards we are going to setup a CD Pipeline to avoid manually deploying changes to our site every time we make them. So, what exactly is Jekyll?
 
 From their official website: 
-> Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.
+Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.
 
-> One of the great things about Jekyll is there’s no database. All content and site structure are files that a Git repository can version. Using a repository is optional but is recommended.
+One of the great things about Jekyll is there’s no database. All content and site structure are files that a Git repository can version. Using a repository is optional but is recommended.
 
 It is also the foundation for [GitHub Pages](https://pages.github.com/). So why not just use GitHub Pages then, you may ask? Because I am too much of a Scrooge McDuck.
 ```
