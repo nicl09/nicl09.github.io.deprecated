@@ -99,7 +99,7 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: nicl09/nicls-blog             # <gh-username>/<repo>
+    repo: nicl09/nicl09.github.io             # <gh-username>/<repo>
     repo_id:
     category:
     category_id:
