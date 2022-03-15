@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Jekyll and Pi"
+number: 1
+date:   2022-03-15 13:47 -0700
+excerpt: "In this article, we will setup a static Jekyll site on a RaspberryPi 4 and create a simple CD pipeline for it."
+category: DevOps
+---
 ## What?
 
 We are going to deploy a website with the help of [Jekyll](https://jekyllrb.com/) and a RaspberryPi 4. Afterwards we are going to setup a CD Pipeline to avoid manually deploying changes to our site every time we make them. So, what exactly is Jekyll?
