@@ -110,7 +110,7 @@ Alright, cool. So far we installed Jekyll and created our first site. It's just 
 
 Okay, we got the template site up and running, now it's time to fill it with our own content. This is pretty simple.
 Jekyll looks for files with the proper format in the ~/blog/_posts folder. This file must contain what Jekyll calls the [YAML Front Matter](https://jekyllrb.com/docs/step-by-step/03-front-matter/).
-A typical Front Matter section could look like this (I put example content from this article below):
+A typical Front Matter section could look like this:
 
 ```yaml
 ---
