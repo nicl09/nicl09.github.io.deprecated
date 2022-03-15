@@ -31,6 +31,8 @@ I will try to use my Raspi 4 with 4 Gigs of RAM for this because I do have it id
 - RubyGems
 - GCC and Make
 
+Note: It is possible to run jekyll with docker and there are official images available on Docker Hub. However, there are no arm images available at the time of this post so I am going to do this the oldschool way.
+
 Nothing unusual happening here. First off we install ruby and some other prerequisites:
 
 ```bash
@@ -149,7 +151,14 @@ Then I made the same changes to the _config.yml we already made in our blog dire
 mv ~/blog/_posts/* ~/<repository-name>/_posts && mv  ~/blog/assets/* ~/<repository-name>/assets
 ```
 
+All that's left to enjoy our beautiful new theme is another run of `bundle exec jekyll serve --watch` (you can use watch here to get a live view of all the changes you make to your website):
+
+![](/assets/images/chirpy-1.png)
+
+So far so good. Pretty nice and comparatively easy, right? 
+
 
 resources: 
 - https://jekyllrb.com/docs
 - https://opensource.com/article/21/9/build-website-jekyll
+- https://chirpy.cotes.page/
