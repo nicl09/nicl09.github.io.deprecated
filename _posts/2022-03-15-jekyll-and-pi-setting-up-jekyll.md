@@ -11,7 +11,7 @@ tags: jekyll tutorial
 {: .prompt-info }
 
 
-We are going to deploy a website with the help of [Jekyll](https://jekyllrb.com/) and a RaspberryPi 4. I will use the Pi as a server to host the website on my personal domain (you are probably visiting right now) and then we will setup a CD Pipeline to avoid manually deploying changes to our site every time we make them.<br>
+We are going to deploy a website with the help of [Jekyll](https://jekyllrb.com/) and a RaspberryPi 4 and use this as development environment. ~~I will use the Pi as a server to host the website on my personal domain (you are probably visiting right now) and then we will setup a CD Pipeline to avoid manually deploying changes to our site every time we make them.~~<br>
 <br>
 So, what exactly is Jekyll?<br>
 
