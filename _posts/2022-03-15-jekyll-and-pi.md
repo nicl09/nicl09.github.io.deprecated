@@ -58,10 +58,10 @@ echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-> :warning: In my case I had to move the export commands close to the top of my .zshrc because other configurations in
+> In my case I had to move the export commands further to the top of my .zshrc because other configurations in
 > the file would conflict and result in errors such as:  
 > `zsh: command not found: bundle (after gem install bundle)`
-
+{: .prompt-warning }
 
 Finally, we install Jekyll and Bundler:
 
@@ -86,7 +86,8 @@ Next, we change into our new directory, build the site and make it available on 
 cd ~/blog && bundle exec jekyll serve
 ```
 
-> :warning: **Ruby Version 3.0.0+**: As of 03/14/2022 the official documentation says this step [may fail](https://github.com/github/pages-gem/issues/752). You may fix it by adding `webrick` to your dependencies: `bundle add webrick`
+> **Ruby Version 3.0.0+**: As of 03/14/2022 the official documentation says this step [may fail](https://github.com/github/pages-gem/issues/752). You may fix it by adding `webrick` to your dependencies: `bundle add webrick`
+{: .prompt-warning }
 
 This brings up our server and allows us to connect to 127.0.0.1:4000. Though because I was installing this on my Pi and wanted to connect from my desktop I had to add a few lines to the _config.yml in my ~/blog folder:
 
@@ -159,7 +160,9 @@ Then we make the same changes to the _config.yml we already made in our blog dir
 mv ~/blog/_posts/* ~/<repository-name>/_posts && mv  ~/blog/assets/* ~/<repository-name>/assets
 ```
 
-All that's left to enjoy our beautiful new theme is another run of `bundle exec jekyll serve --watch` (we are using watch here to get a live view of all the changes we make to our website):
+All that's left to enjoy our beautiful new theme is another run of `bundle exec jekyll serve --watch` 
+> We are using `--watch` here to get a live view of all the changes we make to our website
+{: .prompt-tip }
 
 ![](/assets/images/chirpy-1.png)
 
