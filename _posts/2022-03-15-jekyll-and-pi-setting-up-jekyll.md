@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Jekyll and Pi - Setting up Jekyll on a Raspberry Pi 4"
 date:   2022-03-15 08:47
 excerpt: "In this article, we will setup a static Jekyll site on a RaspberryPi 4 and create a simple CD pipeline for it."
