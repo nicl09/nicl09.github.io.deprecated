@@ -21,7 +21,7 @@ timezone: DE
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Nicls Blog                          # the main title
+title: DiveOps                          # the main title
  
 tagline: DevOps, Diving & the glorious BVB 09   # it will display as the sub-title
 
