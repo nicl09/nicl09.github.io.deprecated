@@ -7,7 +7,7 @@ tags: jekyll tutorial
 ---
 ## What?
 
-> This started as an attempt to deploy a Jekyll website on RaspberryPi **in production**. However, while deploying this to production I quickly realized it's way more comfortable to use GitHub Pages for hosting. I changed my approach and am now using my RasPi for development and testing only. Please consider this when you're reading this article. Though, the follow-up article will explain how to handle this with GitHub pages if you have a domain at hand (which was a premise anyway).
+> This started as an attempt to deploy a Jekyll website on RaspberryPi **in production**. However, while deploying this to production I quickly realized it's way more comfortable to use GitHub Pages for hosting. I changed my approach and am now using my RasPi for development and testing only. Please consider this when you're reading this article. The follow-up article will explain how to handle this with GitHub pages if you have a domain at hand (which was a premise anyway).
 {: .prompt-info }
 
 
