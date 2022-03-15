@@ -26,6 +26,7 @@ It is also the foundation for [GitHub Pages](https://pages.github.com/). So why 
 
 Simply because I do have a domain available and a couple of other reasons why I would like to share my journey, for example:
 
+- Documentation
 - Learning
 - Interactions
 - Motivation
