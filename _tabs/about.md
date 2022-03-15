@@ -21,4 +21,4 @@ If you just want to use this as a template or something similar feel free to do 
 - etc...
 <br>
 <br>
-I am always open to (constructive) criticism, opinion pieces or info related to these topics. You can get in touch with me via social media if you click the links on the bottom left.
+I am always open to (constructive) criticism, opinion pieces or info related to these topics. You can get in touch with me via social media or mail if you click the links on the bottom left.
