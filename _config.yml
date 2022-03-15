@@ -35,7 +35,7 @@ github:
   username: nicl09             # change to your github username
 
 twitter:
-  username: niclnicl            # change to your twitter username
+  username: diveopsblog            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -44,7 +44,7 @@ social:
   email: niclas@nicl.eu             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/niclnicl     # change to your twitter homepage
+    # - https://twitter.com/diveopsblog     # change to your twitter homepage
     - https://github.com/nicl09       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
